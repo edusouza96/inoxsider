@@ -11539,11 +11539,19 @@ header.masthead h1, header.masthead .h1 {
   margin: auto;
 }
 
-#contact a {
+.contato-links {
   color: #000;
   text-decoration: none;
 }
 
-#contact a:hover {
+.contato-links:hover {
   color: rgb(var(--bs-primary-rgb));
+}
+
+.produtos-image {
+  transition: all 1s ease-in-out;
+}
+.produtos-image:hover {
+  transform: rotateY(180deg);
+  transition: all 1s ease-in-out;
 }
